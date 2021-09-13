@@ -1,3 +1,17 @@
+##INSTALLATION GUIDE
+You already know 😊
+- clone the project
+- run composer install
+- run npm install
+- run npm run dev
+- duplicate the .env.example, and rename to .env
+- remember to create your database and make sure it corresponds to what you have on the .env
+- php artisan key:generate
+- then migrate
+- I created a seed if you want to just populate data to the db, but that won't be necessary as I created views already for you to create, edit and delete topics, subscribers and messages. Just register and login.
+- I would appreciate your feedback (pull request, comments, whatever) where I went wrong.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
